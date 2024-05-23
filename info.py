@@ -97,7 +97,7 @@ QUALITIES = ["360P", "", "480P", "", "720P", "", "1080P", "", "1440P", "", "2160
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
-    ON_HEROKU = True
+    ON_HEROKU = False
     APP_NAME = environ.get('APP_NAME')
 else:
     ON_HEROKU = False
@@ -112,12 +112,12 @@ MULTI_CLIENT = False
 name = str(environ.get('name', 'LazyPrincess'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
-    ON_HEROKU = True
+    ON_HEROKU = False
     APP_NAME = str(getenv('APP_NAME'))
 
 else:
     ON_HEROKU = False
-HAS_SSL=bool(getenv('HAS_SSL',True))
+HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
     URL = "https://{}/".format(FQDN)
 else:
