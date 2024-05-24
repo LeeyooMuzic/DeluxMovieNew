@@ -466,7 +466,7 @@ async def start(client, message):
                     ]
                 )
             )
-            await asyncio.sleep(5)
+            await asyncio.sleep(180)
             await k.edit("<b>ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ᴅᴇʟᴇᴛᴇᴅ !\nᴋɪɴᴅʟʏ ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ.</b>")
             return
     user = message.from_user.id
