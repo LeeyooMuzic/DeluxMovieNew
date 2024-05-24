@@ -371,7 +371,7 @@ async def start(client, message):
                 ]]
             )
         )
-        await asyncio.sleep(600)
+        await asyncio.sleep(5)
         await k.edit("<b>ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ᴅᴇʟᴇᴛᴇᴅ !\nᴋɪɴᴅʟʏ ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ.</b>")
         return
         
@@ -427,7 +427,7 @@ async def start(client, message):
     )
             filesarr.append(msg)
         k = await client.send_sticker(sticker="CAACAgQAAxkBAAELUz1lwUj6GPRGYm9l0PYtB11gSvRGawAC1REAAqXq2VPT8nJumdJaaDQE")
-        await asyncio.sleep(600)
+        await asyncio.sleep(5)
         for x in filesarr:
             await x.delete()
         await k.edit_sticker(sticker="CAACAgUAAxkBAAEKRaFk_uzdXo_uugN0YeogUUimYNKHsgACPAUAAm2DsFTEKVYFc4R6LTAE")
@@ -466,7 +466,7 @@ async def start(client, message):
                     ]
                 )
             )
-            await asyncio.sleep(600)
+            await asyncio.sleep(5)
             await k.edit("<b>ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ᴅᴇʟᴇᴛᴇᴅ !\nᴋɪɴᴅʟʏ ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ.</b>")
             return
     user = message.from_user.id
@@ -517,7 +517,7 @@ async def start(client, message):
                 InlineKeyboardButton(" ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ", callback_data=f'delfile#{file_id}')
             ]]
             k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
-            await asyncio.sleep(600)
+            await asyncio.sleep(5)
             await msg.delete()
             await k.edit_text("<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!\n\nᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴅᴇʟᴇᴛᴇᴅ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
             return
@@ -569,7 +569,7 @@ async def start(client, message):
         InlineKeyboardButton(" ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ", callback_data=f'delfile#{file_id}')
     ]]
     k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
-    await asyncio.sleep(600)
+    await asyncio.sleep(5)
     await msg.delete()
     await k.edit_text("<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!\n\nᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴅᴇʟᴇᴛᴇᴅ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
     return  
