@@ -20,17 +20,17 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "value": "5826364594:AAFl8T4jZ4T67XkHy4JcLZa6CVJQs49h0YM",
+            "value": "",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "26305268",
+            "value": "26689857",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "4e385c619185805f48427df36458d056",
+            "value": "b43b1c688b85941cd78a8d3972943eb3",
             "required": true
         },
         "CHANNELS": {
@@ -45,7 +45,7 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "value": "https://graph.org/file/e3b2c972d92f15289622e.jpg",
+            "value": "https://graph.org/file/bb0c4c8b7e0b7a9e8bbba.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
@@ -64,7 +64,7 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
-            "value": "mongodb+srv://Muhammad:new37@cluster0.i5k0icq.mongodb.net/?retryWrites=true&w=majority",
+            "value": "",
             "required": true
         },
         "DATABASE_NAME": {
