@@ -45,11 +45,11 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✨ Gʀᴏᴜᴘ ✨', url="https://t.me/GrootMovieMax"),
+                    InlineKeyboardButton('✨ ɢʀᴏᴜᴘ ✨', url="https://t.me/GrootMovieMax"),
                     InlineKeyboardButton('🛡️ ᴜᴘᴅᴀᴛᴇꜱ 🛡️', callback_data='channels')
                 ],[
-                    InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('👻 ʜᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('👾 ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
                     InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="premium_info")
                   ]]
@@ -497,7 +497,7 @@ async def start(client, message):
               InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/DxPanda2') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/GrootMovieMax') #Don't change anything without contacting me @GrootMovieMax
              ]
             ]
         )
