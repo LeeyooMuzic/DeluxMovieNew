@@ -45,7 +45,7 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "value": "https://graph.org/file/bb0c4c8b7e0b7a9e8bbba.jpg",
+            "value": "https://graph.org/file/87dd4c4edf9811ef3423a.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
