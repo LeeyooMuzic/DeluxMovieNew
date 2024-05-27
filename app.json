@@ -62,7 +62,7 @@
             "value": "-1002071207693",
             "required": true
         },
-        "AUTH_GROUPS": {
+        "AUTH_GROUP": {
             "description": "ID of group.Make sure bot is admin in this channel. Without join this channel users cannot use bot.",
             "value": "-1002169813272",
             "required": true
