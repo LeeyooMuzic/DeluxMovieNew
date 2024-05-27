@@ -31,7 +31,7 @@ CODE = (environ.get('CODE', 'https://telegra.ph/file/697d1e8ad6a7268273c13.jpg')
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', ''))
 STREAM_API = (environ.get('STREAM_API', ''))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/kanhaiya_me'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/GrootMovieMax'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6144662920 5342963115').split()]
