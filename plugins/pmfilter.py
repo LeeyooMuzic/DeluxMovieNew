@@ -115,7 +115,7 @@ async def pm_text(bot, message):
             link = get_link(content)
             if not link:
                 if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-                if PM_SEARCH == False:
+                if PM_SEARCH == True:
                     await auto_filter(bot, message)
                 else:
                     await message.reply_text(text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/+uUs4A3DApnAyMmFl>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+uUs4A3DApnAyMmFl")]]))
@@ -134,7 +134,7 @@ async def pm_text(bot, message):
         await db.set_save(user_id, save=False)
         return 
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    if PM_SEARCH == False:
+    if PM_SEARCH == True:
         await auto_filter(bot, message)
     else:
         await message.reply_text(
